@@ -63,25 +63,22 @@ export function Instructions() {
             <p className="font-medium mb-2">Black Keys</p>
             <div className="space-y-1 text-muted-foreground">
               <div className="flex justify-between">
-                <span>2</span><span>C#4</span>
+                <span>W</span><span>C#4</span>
               </div>
               <div className="flex justify-between">
-                <span>3</span><span>D#4</span>
+                <span>E</span><span>D#4</span>
               </div>
               <div className="flex justify-between">
-                <span>5</span><span>F#4</span>
+                <span>Y</span><span>F#4</span>
               </div>
               <div className="flex justify-between">
-                <span>6</span><span>G#4</span>
+                <span>U</span><span>G#4</span>
               </div>
               <div className="flex justify-between">
-                <span>7</span><span>A#4</span>
+                <span>O</span><span>A#4</span>
               </div>
               <div className="flex justify-between">
-                <span>9</span><span>C#5</span>
-              </div>
-              <div className="flex justify-between">
-                <span>0</span><span>D#5</span>
+                <span>[</span><span>C#5</span>
               </div>
             </div>
           </div>
