@@ -78,6 +78,35 @@ npm run test:watch
 npm run test:coverage
 ```
 
+## 🚀 Deployment
+
+This project is set up for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+When you push to the main branch, the GitHub Actions workflow will:
+
+1. Build the application
+2. Run the test suite
+3. Deploy the built files to GitHub Pages
+
+The deployed application will be available at: `https://[your-github-username].github.io/[repository-name]/`
+
+### Manual Deployment
+
+If you need to deploy manually, you can:
+
+1. Run the build process:
+   ```bash
+   npm run build
+   ```
+
+2. Trigger the GitHub Actions workflow:
+   - Go to your repository on GitHub
+   - Click on the "Actions" tab
+   - Select the "Deploy to GitHub Pages" workflow
+   - Click "Run workflow"
+
 ## 📄 License
 
 The Spark Template files and resources from GitHub are licensed under the terms of the MIT license, Copyright GitHub, Inc.
