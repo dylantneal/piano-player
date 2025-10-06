@@ -12,22 +12,23 @@ export function getNoteFrequency(semitoneOffset: number): number {
 }
 
 export const PIANO_NOTES: Note[] = [
+  // Starting from C4 (middle C) - proper chromatic scale
   { name: 'C4', frequency: getNoteFrequency(-9), keyboardKey: 'a', isBlack: false },
   { name: 'C#4', frequency: getNoteFrequency(-8), keyboardKey: 'w', isBlack: true },
   { name: 'D4', frequency: getNoteFrequency(-7), keyboardKey: 's', isBlack: false },
   { name: 'D#4', frequency: getNoteFrequency(-6), keyboardKey: 'e', isBlack: true },
   { name: 'E4', frequency: getNoteFrequency(-5), keyboardKey: 'd', isBlack: false },
   { name: 'F4', frequency: getNoteFrequency(-4), keyboardKey: 'f', isBlack: false },
-  { name: 'F#4', frequency: getNoteFrequency(-3), keyboardKey: 'y', isBlack: true },
+  { name: 'F#4', frequency: getNoteFrequency(-3), keyboardKey: 't', isBlack: true },
   { name: 'G4', frequency: getNoteFrequency(-2), keyboardKey: 'g', isBlack: false },
-  { name: 'G#4', frequency: getNoteFrequency(-1), keyboardKey: 'u', isBlack: true },
+  { name: 'G#4', frequency: getNoteFrequency(-1), keyboardKey: 'y', isBlack: true },
   { name: 'A4', frequency: getNoteFrequency(0), keyboardKey: 'h', isBlack: false },
-  { name: 'A#4', frequency: getNoteFrequency(1), keyboardKey: 'o', isBlack: true },
+  { name: 'A#4', frequency: getNoteFrequency(1), keyboardKey: 'u', isBlack: true },
   { name: 'B4', frequency: getNoteFrequency(2), keyboardKey: 'j', isBlack: false },
   { name: 'C5', frequency: getNoteFrequency(3), keyboardKey: 'k', isBlack: false },
-  { name: 'C#5', frequency: getNoteFrequency(4), keyboardKey: '[', isBlack: true },
+  { name: 'C#5', frequency: getNoteFrequency(4), keyboardKey: 'i', isBlack: true },
   { name: 'D5', frequency: getNoteFrequency(5), keyboardKey: 'l', isBlack: false },
-  { name: 'D#5', frequency: getNoteFrequency(6), keyboardKey: undefined, isBlack: true },
+  { name: 'D#5', frequency: getNoteFrequency(6), keyboardKey: 'o', isBlack: true },
   { name: 'E5', frequency: getNoteFrequency(7), keyboardKey: ';', isBlack: false },
 ];
 

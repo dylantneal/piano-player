@@ -69,16 +69,19 @@ export function Instructions() {
                 <span>E</span><span>D#4</span>
               </div>
               <div className="flex justify-between">
-                <span>Y</span><span>F#4</span>
+                <span>T</span><span>F#4</span>
               </div>
               <div className="flex justify-between">
-                <span>U</span><span>G#4</span>
+                <span>Y</span><span>G#4</span>
               </div>
               <div className="flex justify-between">
-                <span>O</span><span>A#4</span>
+                <span>U</span><span>A#4</span>
               </div>
               <div className="flex justify-between">
-                <span>[</span><span>C#5</span>
+                <span>I</span><span>C#5</span>
+              </div>
+              <div className="flex justify-between">
+                <span>O</span><span>D#5</span>
               </div>
             </div>
           </div>
