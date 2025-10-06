@@ -27,6 +27,7 @@ export const PIANO_NOTES: Note[] = [
   { name: 'C5', frequency: getNoteFrequency(3), keyboardKey: 'k', isBlack: false },
   { name: 'C#5', frequency: getNoteFrequency(4), keyboardKey: '[', isBlack: true },
   { name: 'D5', frequency: getNoteFrequency(5), keyboardKey: 'l', isBlack: false },
+  { name: 'D#5', frequency: getNoteFrequency(6), keyboardKey: undefined, isBlack: true },
   { name: 'E5', frequency: getNoteFrequency(7), keyboardKey: ';', isBlack: false },
 ];
 
