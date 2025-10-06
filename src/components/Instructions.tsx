@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Keyboard, MusicNote } from '@phosphor-icons/react';
+import { Keyboard, MusicNote, SpeakerHigh } from '@phosphor-icons/react';
+import { SoundSelector } from './SoundSelector';
+import { Separator } from '@/components/ui/separator';
 
 export function Instructions() {
   return (
@@ -12,6 +14,15 @@ export function Instructions() {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
+        <div className="flex items-start gap-3">
+          <SpeakerHigh size={20} className="mt-1 text-primary" />
+          <div className="flex-grow">
+            <p className="font-medium mb-2">Sound Options</p>
+            <SoundSelector />
+          </div>
+        </div>
+        
+        <Separator className="my-2" />
         <div className="flex items-start gap-3">
           <Keyboard size={20} className="mt-1 text-primary" />
           <div>
@@ -27,34 +38,34 @@ export function Instructions() {
             <p className="font-medium mb-2">White Keys</p>
             <div className="space-y-1 text-muted-foreground">
               <div className="flex justify-between">
-                <span>A</span><span>C4</span>
+                <span>Z</span><span>C4</span>
               </div>
               <div className="flex justify-between">
-                <span>S</span><span>D4</span>
+                <span>X</span><span>D4</span>
               </div>
               <div className="flex justify-between">
-                <span>D</span><span>E4</span>
+                <span>C</span><span>E4</span>
               </div>
               <div className="flex justify-between">
-                <span>F</span><span>F4</span>
+                <span>V</span><span>F4</span>
               </div>
               <div className="flex justify-between">
-                <span>G</span><span>G4</span>
+                <span>B</span><span>G4</span>
               </div>
               <div className="flex justify-between">
-                <span>H</span><span>A4</span>
+                <span>N</span><span>A4</span>
               </div>
               <div className="flex justify-between">
-                <span>J</span><span>B4</span>
+                <span>M</span><span>B4</span>
               </div>
               <div className="flex justify-between">
-                <span>K</span><span>C5</span>
+                <span>,</span><span>C5</span>
               </div>
               <div className="flex justify-between">
-                <span>L</span><span>D5</span>
+                <span>.</span><span>D5</span>
               </div>
               <div className="flex justify-between">
-                <span>;</span><span>E5</span>
+                <span>/</span><span>E5</span>
               </div>
             </div>
           </div>
@@ -63,25 +74,25 @@ export function Instructions() {
             <p className="font-medium mb-2">Black Keys</p>
             <div className="space-y-1 text-muted-foreground">
               <div className="flex justify-between">
-                <span>W</span><span>C#4</span>
+                <span>S</span><span>C#4</span>
               </div>
               <div className="flex justify-between">
-                <span>E</span><span>D#4</span>
+                <span>D</span><span>D#4</span>
               </div>
               <div className="flex justify-between">
-                <span>T</span><span>F#4</span>
+                <span>G</span><span>F#4</span>
               </div>
               <div className="flex justify-between">
-                <span>Y</span><span>G#4</span>
+                <span>H</span><span>G#4</span>
               </div>
               <div className="flex justify-between">
-                <span>U</span><span>A#4</span>
+                <span>J</span><span>A#4</span>
               </div>
               <div className="flex justify-between">
-                <span>I</span><span>C#5</span>
+                <span>L</span><span>C#5</span>
               </div>
               <div className="flex justify-between">
-                <span>O</span><span>D#5</span>
+                <span>;</span><span>D#5</span>
               </div>
             </div>
           </div>
